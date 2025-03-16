@@ -1,2 +1,18 @@
 # student-placement-prediction
-This repository contains the code and data for a machine learning project aimed at predicting student placement status based on various academic and extracurricular features. The project aims to apply both supervised and unsupervised algorithms to compare their performance.
+This repository is a machine learning project aimed at predicting student placement status based on various academic and extracurricular features using both supervised and unsupervised algorithms to compare their performance.
+
+# Dataset
+The dataset includes the following features:
+
+- **StudentID**: Unique identifier for each student (removed during preprocessing)  
+- **CGPA**: Cumulative Grade Point Average  
+- **Internships**: Number of internships completed  
+- **Projects**: Number of projects completed  
+- **Workshops/Certifications**: Number of workshops or certifications completed  
+- **AptitudeTestScore**: Score in the aptitude test  
+- **SoftSkillsRating**: Rating of soft skills  
+- **ExtracurricularActivities**: Participation in extracurricular activities (Yes/No)  
+- **PlacementTraining**: Participation in placement training (Yes/No)  
+- **SSC_Marks**: Marks obtained in Secondary School Certificate  
+- **HSC_Marks**: Marks obtained in Higher Secondary Certificate  
+- **PlacementStatus**: Placement status (Placed/NotPlaced)  
