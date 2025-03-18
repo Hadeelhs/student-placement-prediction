@@ -38,5 +38,5 @@ The dataset includes the following features:
   - Random Forest
   - SVM
   - Naive Bayes
-![Prediction Model]([https://raw.githubusercontent.com/username/repository/main/assets/image.png](https://github.com/Hadeelhs/student-placement-prediction/blob/main/comparison_of_classifiers.png))
+![Prediction Model](comparison_of_classifiers.png)
 
