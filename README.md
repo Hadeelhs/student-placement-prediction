@@ -31,9 +31,10 @@ The dataset includes the following features:
 
   # Supervised Approach: Classification
 
-  The goal of the supervised approach is to predict the placement status of students using labeled data. We applied a Logistic Regression model to classify students based on their features.
+  The goal of the supervised approach is to predict the placement status of students using labeled data. We applied multiple classifiers :
 
-  - Accuracy: 0.7945
-  - Precision: 0.7444
-  - Recall: 0.7669
-  - F1-Score: 0.7555
+  - Logistic Regression
+  - Decision Tree
+  - Random Forest
+  - SVM
+  - Naive Bayes
