@@ -38,3 +38,23 @@ The dataset includes the following features:
   - Random Forest
   - SVM
   - Naive Bayes
+# Plot the comparison graph
+fig, ax1 = plt.subplots(figsize=(12, 8))
+
+ax2 = ax1.twinx()
+width = 0.2
+
+results_df.plot(kind='bar', x='Model', y='Accuracy', ax=ax1, position=1, width=width, legend=False, color='b')
+results_df.plot(kind='bar', x='Model', y='F1 Score', ax=ax1, position=0, width=width, legend=False, color='g')
+results_df.plot(kind='bar', x='Model', y='Training Time', ax=ax2, position=2, width=width, legend=False, color='r')
+results_df.plot(kind='bar', x='Model', y='Prediction Time', ax=ax2, position=3, width=width, legend=False, color='y')
+
+ax1.set_xlabel('Model')
+ax1.set_ylabel('Accuracy / F1 Score')
+ax2.set_ylabel('Time (seconds)')
+ax1.set_title('Comparison of Classification Algorithms')
+
+ax1.legend(['Accuracy', 'F1 Score'], loc='upper left')
+ax2.legend(['Training Time', 'Prediction Time'], loc='upper right')
+
+plt.show()
